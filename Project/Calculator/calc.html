@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="cal.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <form>
+                    <div class="display">
+                        <input type="text" id="display" readonly>
+                    </div>
+                    <div>
+                        <input class="disp" type="button" value="AC" onclick="act('AC')">
+                        <input class="disp" type="button" value="%" onclick="act('%')">
+                        <input class="disp" type="button" value="DE" onclick="act('DE')">
+                        <input class="disp" type="button" value="/" onclick="act('/')">
+                    </div>
+                    <div>
+                        <input class="disp" type="button" value="7" onclick="act('7')">
+                        <input class="disp" type="button" value="8" onclick="act('8')">
+                        <input class="disp" type="button" value="9" onclick="act('9')">
+                        <input class="disp" type="button" value="*" onclick="act('*')">
+                    </div>
+                    <div>
+                        <input class="disp" type="button" value="4" onclick="act('4')">
+                        <input class="disp" type="button" value="5" onclick="act('5')">
+                        <input class="disp" type="button" value="6" onclick="act('6')">
+                        <input class="disp" type="button" value="-" onclick="act('-')">
+                    </div>
+                    <div>
+                        <input class="disp" type="button" value="1"  onclick="act('1')">
+                        <input class="disp" type="button" value="2"  onclick="act('2')">
+                        <input class="disp" type="button" value="3"  onclick="act('3')">
+                        <input class="disp" type="button" value="+" onclick="act('+')">
+                    </div>
+                    <div>
+                        <input class="disp" type="button" value="00"  onclick="act('00')">
+                        <input class="disp" type="button" value="0"  onclick="act('0')">
+                        <input class="disp" type="button" value="."  onclick="act('.')">
+                        <input class="disp" type="button" value="=" onclick="answer()">
+                    </div>
+                    </form>
+                </form>
+            </div>
+        </div>
+        <script src="calcu.js"></script>
+    </body>
+</html>

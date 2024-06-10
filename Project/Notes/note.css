@@ -1,0 +1,50 @@
+*{
+background: #ece1a1;
+}
+h1{
+  margin-left: 20px;
+}
+h3{
+  background: #00ff88;
+  border: 1px black ridge;
+  border-radius: 3px;
+  margin-left: 40px;
+  width:fit-content;
+  padding: 5px;
+}
+.edt:hover{
+  cursor: pointer;
+}
+.dlt:hover{
+  cursor: pointer;
+}
+h3:hover{
+  cursor: pointer;
+}
+.all{
+  display: inline-block;
+  width: 337px;
+  height: 200px;
+  padding: 7px;
+}
+.but{
+  background: #7bff00;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 1px;
+}
+.but input{
+  background: #cad4c4;
+  border: 1px #cad4c4 solid;
+  margin: 5px;
+  border-radius: 8px;
+}
+textarea{
+  width: 98.25%;
+  height: 80%;
+  resize: none;
+  background: #00eaff;
+  border: none;
+  padding: 4px;
+}

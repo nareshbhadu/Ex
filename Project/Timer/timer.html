@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="ti.css">
+        <title>Timer/Stopwatch</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="time">
+                    <input type="text" value="00" id="hrs" readonly><span>hrs</span>
+                    <input type="text" value="00" id="min" readonly><span>min</span>
+                    <input type="text" value="00" id="sec" readonly><span>sec</span>
+                </div>
+                <div class="bt">
+                    <input type="button" id="st" value="Start" onclick="strt()">
+                    <input type="button" value="Reset" onclick="reset()">
+                </div>
+            </div>
+        </div>
+        <script src="tim.js"></script>
+    </body>
+</html>

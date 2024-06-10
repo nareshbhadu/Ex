@@ -1,0 +1,33 @@
+.container{
+    background: #ca527e;
+    height: 81.5%; width: 98.65%;
+    display: flex;
+    padding-top: 10%;
+    justify-content: center;
+    padding-left: 20px;
+}
+.time input{
+    font-size: 80px;
+    text-align: center;
+    width: 120px;
+    height: 90px;
+    border-radius: 5px;
+    border: 0px;
+}
+.time span{
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.bt input:hover{
+    background: #e8dce3;
+}
+.bt input{
+    cursor: pointer;
+    margin: 40px;
+    padding: 10px;
+    font-size: 18;
+    width: 140px;
+    border-radius: 10px;
+    background: #bf8daa;
+    border: 1px #ad95a9 inset;
+}
