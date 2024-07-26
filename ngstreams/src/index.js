@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './Pages/App';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import ProductPage from './ProductPage';
+import ProductPage from './Pages/ProductPage';
 
 const router = createBrowserRouter([
   {
