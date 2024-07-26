@@ -39,7 +39,7 @@ function App() {
       showAlert("Light mode is enabled", "Sucess")
     }
   }
-  
+
   return (
     <>
       <NavBar title="Navigation" mode={mode} tog = {togg}/>
